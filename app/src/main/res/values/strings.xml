@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Helping Hand</string>
+    <string name="action_search">Zip Code</string>
+    <string name="search_hint">Zip Code</string>
+</resources>

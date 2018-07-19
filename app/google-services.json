@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1013933172700",
+    "firebase_url": "https://charity-a1778.firebaseio.com",
+    "project_id": "charity-a1778",
+    "storage_bucket": "charity-a1778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013933172700:android:2652e15172515288",
+        "android_client_info": {
+          "package_name": "cpp.app.xps.charity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013933172700-pivfv7lfgf2p2rkiabe50qssnnbn4gct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuK3yH3Su22c0wcytsDibzfisH-9pBl-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cpp.app.xps.charity.OrganizationActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/common_full_open_on_phone" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/labelDesc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="235dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nameLabel"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:scrollbars="vertical"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelDesc"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+    <TextView
+        android:id="@+id/labelDesc"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:text="Story"
+        app:layout_constraintBottom_toTopOf="@+id/addressLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameLabel" />
+
+    <TextView
+        android:id="@+id/addressLabel"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:text="Address"
+        app:layout_constraintBottom_toTopOf="@+id/phoneLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelDesc" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="235dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addressLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesc" />
+
+    <TextView
+        android:id="@+id/phoneLabel"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:text="Phone"
+        app:layout_constraintBottom_toTopOf="@+id/zipLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressLabel" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="235dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvZip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phoneLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
+
+    <TextView
+        android:id="@+id/tvZip"
+        android:layout_width="235dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/zipLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tvPhone" />
+
+    <TextView
+        android:id="@+id/zipLabel"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:text="Zip Code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneLabel" />
+
+</android.support.constraint.ConstraintLayout>
